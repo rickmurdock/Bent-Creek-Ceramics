@@ -16,7 +16,6 @@ body {
     width: 1280px;
     margin: auto;
     /*background-color: #e8e7de;*/
-    /*font-family: Arial, Helvetica, sans-serif;*/
     font-family: 'Merriweather', serif;
 }
 
@@ -60,6 +59,10 @@ nav {
     color: #2B2F26;
 }
 
+.nav-active a {
+    color: #968772;
+}
+
 .nav-item a:hover {
     color: #CD5D67;
 }
@@ -69,7 +72,6 @@ nav {
 }
 
 #main-page-1 {
-    /*background-color: #e8e7de;*/
     background-color: #F2F1E8;
     padding: 60px 0 0 0;
 }
@@ -188,6 +190,8 @@ table {
 table, th, td {
     padding: 20px;
     border: 1px solid black;
+    font-weight: 580;
+    font-size: 1.05em;
 }
 
 tr:nth-child(even) {
@@ -198,24 +202,21 @@ tr:nth-child(even) {
     width: 900px;
     display: flex;
     flex-direction: row;
-    /*flex-flow: row;*/
-    /*align-content: */
-    
-}
-#before-aside {
-    /*width: 70%;*/
-    width: 1080px;
-    /*flex-grow: 3;*/
 }
 
-#aside-wraper {
+#before-aside {
+    width: 80vw;
+}
+
+#aside-wrapper {
     font-size: 10px;
     padding-left: 20px;
+    width: 20vw;
 }
 
 #aside-text{
-    width: 30%;
-    font-size: 15px;
+    width: 95%;
+    font-size: 14px;
 }
 
 footer {
@@ -226,37 +227,34 @@ footer {
     height: 80px;
 }
 
-/*#footer-page-1 {
-    position: relative;
-    bottom: 10px;
-}*/
-
 #newsletter {
     background-image: url(./images/background-2.jpg);
     height: 600px;
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
 #newsletter-box {
-    height: 350px;
+    height: 60%;
     width: 50%;
+    margin: auto;
     padding: 30px;
     background-color: white;
     position: relative;
-    left: 250px;
-    top: 200px;
+    top: 20vh;
 }
 
 #h2-page-3 {
     font-family: 'Merriweather', serif;
     font-weight: 300;
     text-align: center;
+    font-size: 2em;
 }
 
 #h3-page-3 {
     font-family: 'Merriweather', serif;
     font-size: 20px;
-    font-weight: 300;
+    font-weight: 400;
     text-align: center;
 }
 
@@ -274,6 +272,7 @@ footer {
 
 #button-wrapper {
     text-align: center;
+    margin-top: 30px;
 }
 button {
     font-size: 20px;
@@ -291,7 +290,6 @@ button:hover {
 input:focus {
     border-bottom: 2px solid #967343;
 }
-
 
 #product-row-1 {
     width: 1280px;
@@ -327,7 +325,6 @@ input:focus {
     position: relative;
     bottom: -190px;
 }
-
 
 .product-name-1 h4 {
     color: #F2F1E8;
