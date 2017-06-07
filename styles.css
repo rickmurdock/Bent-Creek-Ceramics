@@ -221,10 +221,29 @@ tr:nth-child(even) {
 footer {
     color: white;
     background-color: black;
-    padding: 25px 0 25px 20px;
+    padding: 28px 0 28px 20px;
     margin: auto;
     height: 80px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-content: space-between;
 }
+
+.fa {
+    color: white;
+    padding: 0 0 0 10px;
+}
+
+#copy {
+    width: 50vw;
+}
+
+.icon-wrapper {
+    text-align: right;
+    padding: 0px 20px 0 0;
+    width: 50vw;
+}
+
 
 #newsletter {
     background-image: url(./images/background-2.jpg);
