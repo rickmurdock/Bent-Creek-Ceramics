@@ -22,11 +22,12 @@ nav {
     font-family: 'Roboto', sans-serif;
     background-color: #FFFFFF;
     position: fixed;
-    width: 100%;
+    width: 1280px;
     z-index: 100;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
+    box-shadow: 0 3px 5px rgba(100, 100, 100, 0.49);
 }
 
 .nav-row {
@@ -136,7 +137,7 @@ nav {
 blockquote {
     padding: 6px 25px;
     margin: 0 0 20px 0;
-    border-left: 2px solid black;
+    border-left: 2px solid #131511;
     font-style: italic;
     font-size: 20px;
     line-height: 180%;
@@ -188,7 +189,7 @@ table {
 
 table, th, td {
     padding: 20px;
-    border: 1px solid black;
+    border: 1px solid #131511;
     font-weight: 580;
     font-size: 1.05em;
 }
@@ -220,7 +221,7 @@ tr:nth-child(even) {
 
 footer {
     color: white;
-    background-color: black;
+    background-color: #131511;
     padding: 28px 0 28px 20px;
     margin: auto;
     height: 80px;
@@ -347,14 +348,14 @@ input:focus {
 
 .product-name-1 h4 {
     color: #F2F1E8;
-    background-color: black;
+    background-color: #131511;
     padding: 15px;
     display: inline-block;
 }
 
 .product-name-2 h4 {
-    color: white;
-    background-color: black;
+    color: #F2F1E8;
+    background-color: #131511;
     padding: 15px;
     display: inline-block;
 }
