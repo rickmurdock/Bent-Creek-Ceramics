@@ -4,7 +4,7 @@ The Iron Yard Project: Week 1 - Weekly Assignment
 
 ---
 
-View the finished project: http://bentcreek.surge.sh/
+### View the finished project: http://bentcreek.surge.sh/
 
 ---
 
